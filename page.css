@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+h1{
+color:white;
+padding: 25px 0;
+  
+}
+
+body{
+
+background-image: url(./fonn.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+text-align: center;
+width: fit-content;
+margin: 20px auto;
+padding: 30px;
+height: 100vh;
+
+}
+
+div{
+text-align: left;
+  padding: 12px;
+  
+}
+
+
+form{display:inline-block;
+  text-align: left;
+  width: fit-content;
+  border: 1px solid rgb(194, 132, 132);  
+  border-radius: 15px;
+ background-color: antiquewhite;
+  box-shadow: 35px 25px 25px rgb(129, 10, 10);
+  font-size: 20px; 
+  font-style: italic;
+  background-image: url(./fon.png);
+  background-size: 28rem;
+  background-repeat: no-repeat;
+  
+}
+
+label{
+display:inline-block;
+text-align: left;
+width: 125px;
+
+}
+
+input{
+  border-radius: 5px;
+  padding-left: 70px;
+  padding-top: 20px; 
+  
+}
+
+
+
+.son{
+padding: 11px;
+width: 240px;
+border-radius: 5px;
+}
+
+.son1{
+  text-align: center;
+ }
+ 
+.son2{
+  background-color: rgb(244,231,231);
+  cursor: pointer;
+  text-align: center;
+}
+.son2:hover{
+  background-color: rgb(203,137,103);
+  color: bisque;
+}
